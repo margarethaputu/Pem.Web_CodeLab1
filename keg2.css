@@ -1,0 +1,27 @@
+/* keg2.css */
+table.mahasiswa-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: gold;
+}
+
+table.mahasiswa-table th,
+table.mahasiswa-table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  background-color: gold;
+  color: black;
+}
+
+table.mahasiswa-table th {
+  background-color: gold;
+}
+
+table.mahasiswa-table tr:nth-child(even) {
+  background-color: gold;
+}
+
+table.mahasiswa-table tr:nth-child(odd) {
+  background-color: white;
+}
